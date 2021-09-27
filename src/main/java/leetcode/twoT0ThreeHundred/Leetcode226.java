@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.twoT0ThreeHundred;
+
+import leetcode.TreeNode;
 
 /**
  * 〈一句话功能简述〉<br>

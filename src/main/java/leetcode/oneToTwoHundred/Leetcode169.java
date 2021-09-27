@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.oneToTwoHundred;
 
 /**
  * 〈一句话功能简述〉<br>

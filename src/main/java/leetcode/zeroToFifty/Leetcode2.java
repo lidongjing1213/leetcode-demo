@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.zeroToFifty;
+
+import leetcode.ListNode;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -54,24 +56,5 @@ public class Leetcode2 {
             currentNode.next = newNode;
         }
         return newList.next;
-    }
-
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }

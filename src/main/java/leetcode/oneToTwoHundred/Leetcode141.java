@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.oneToTwoHundred;
+
+import leetcode.ListNode;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -10,16 +12,6 @@ package leetcode;
  * @since [产品/模块版本] （可选）
  */
 public class Leetcode141 {
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
     public boolean hasCycle(ListNode head) {
         if(head==null || head.next==null){
             return false;

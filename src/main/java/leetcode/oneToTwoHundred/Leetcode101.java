@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.oneToTwoHundred;
+
+import leetcode.TreeNode;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -10,24 +12,6 @@ package leetcode;
  * @since [产品/模块版本] （可选）
  */
 public class Leetcode101 {
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     public boolean isSymmetric(TreeNode root) {
         return process(root, root);

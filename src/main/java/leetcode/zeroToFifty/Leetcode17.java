@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.zeroToFifty;
 
 import java.util.ArrayList;
 import java.util.HashMap;

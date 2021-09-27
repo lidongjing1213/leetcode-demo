@@ -1,8 +1,7 @@
-package leetcode;
+package leetcode.zeroToFifty;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Queue;
 import java.util.Stack;
 
 /**

@@ -1,6 +1,6 @@
-package leetcode;
+package leetcode.zeroToFifty;
 
-import java.awt.*;
+import leetcode.ListNode;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -45,22 +45,5 @@ public class Leetcode21 {
         }
         return head.next;
 
-    }
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }

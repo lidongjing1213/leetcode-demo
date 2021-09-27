@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.twoT0ThreeHundred;
+
+import leetcode.ListNode;
 
 import java.util.List;
 

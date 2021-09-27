@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.fiftyOneToOneHundred;
+
+import leetcode.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,26 +17,6 @@ import java.util.List;
  * @since [产品/模块版本] （可选）
  */
 public class Leetcode94 {
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
 
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.zeroToFifty;
 
 /**
  * 〈一句话功能简述〉<br>

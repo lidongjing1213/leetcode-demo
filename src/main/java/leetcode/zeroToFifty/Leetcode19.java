@@ -1,5 +1,7 @@
-package leetcode;
+package leetcode.zeroToFifty;
 
+
+import leetcode.ListNode;
 
 /**
  * 〈一句话功能简述〉<br>
