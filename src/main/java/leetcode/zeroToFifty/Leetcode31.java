@@ -15,21 +15,37 @@ public class Leetcode31 {
 
     public void nextPermutation(int[] nums) {
         int n = nums.length;
-        int max = Integer.MIN_VALUE;
-        int index = -1;
-        for (int i = n - 1; i >= 0; i--) {
-            if (nums[i] > max) {
-                max = nums[i];
-                index = i;
+        int i = n - 2;
+        for (; i >= 0; i--) {
+            if (nums[i] < nums[i + 1]) {
+                break;
             }
         }
-        if (index > 0) {
-            int temp = nums[index];
-            nums[index] = nums[index - 1];
-            nums[index - 1] = temp;
-        }else{
-            Arrays.sort(nums);
+        if(i>=0){
+            int j = n - 1;
+            for (; j > i; j--) {
+                if (nums[i] < nums[j]) {
+                    break;
+                }
+            }
+            swap(nums, i, j);
         }
+        reverse(nums, n, i);
+    }
 
+    private void reverse(int[] nums, int n, int i) {
+        int left = i + 1;
+        int right = n - 1;
+        while (left < right) {
+            swap(nums, left, right);
+            left++;
+            right--;
+        }
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }
